@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #264d00;
+  background-color: #ffffcc;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0;
+}
+
+#header-nav {
+  background-color: #e67300;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #ccff99;
+}
+#nav-list a  {
+  font-size: 1.3em;
+  color: #557c3e;
+  text-align: center;
+  border-bottom: 2px solid #333300;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  line-height: .75;
+}
+
+#nav-list a:hover {
+  background: #e0ebeb;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/* END HEADER */
+
+/* MAIN CONTENT PAGE */
+#main-content {
+  width: 100%;
+  font-family: 'Lora', serif;
+}
+
+#main-content h2, h3 {
+   font-weight: bold;
+   text-shadow: 1px 1px 1px;
+   opacity: .8;
+}
+
+#main-content h2 {
+  color: #6600cc;
+font-size: 3em;
+  
+}
+
+#top {
+  font-size: 3em;  
+  margin: 0;
+  padding: 0 0 15px;
+}
+
+#main-content p {
+padding: 0 10px 5px;
+ box-sizing: border-box;
+text-align: justify;
+}
+
+#menu-section {
+  margin-top: 10px;
+}
+
+#menu-section h3 {
+  text-shadow: 2px 2px 2px;
+  margin-top: 10px;
+}
+
+
+.menu-item-description {
+    background-color: #ff66a3;
+    height: 700px;
+    border: 5px solid #ffffcc;
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #4d004d;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/* END MAIN CONTENT PAGE */
+
+
+@media (min-width: 768px) {
+ .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -70px;
+} 
+}
